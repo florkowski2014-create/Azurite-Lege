@@ -1,0 +1,11 @@
+name: AzuriteLege
+version: 1.0.0
+main: pl.azurite.lege.AzuriteLege
+api-version: '1.21'
+commands:
+  azurite-lege:
+    description: Zarządzanie legendarkami
+    usage: /azurite-lege <set|ingredient|remove>
+permissions:
+  azurite.lege.admin:
+    default: op
